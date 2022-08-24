@@ -1,6 +1,8 @@
+const array = ["Gabriel", "Amy", "Maya"];
 function secondMatchesAmy(array) {
-  if ( ) {
+  if (array[1]) {
     return "Second index matched!";
-  }
-  return "Second index not matched";
+  } else
+    return "Second index not matched";
 }
+console.log(secondMatchesAmy(array));
