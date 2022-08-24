@@ -9,4 +9,4 @@ function moodChecker(text) {
         return `I'm sorry, I'm still learning about feelings!`;
     }
 }
-console.log(moodChecker("Happy"));
+console.log(moodChecker("Sad"));

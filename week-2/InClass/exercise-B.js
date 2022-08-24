@@ -1,5 +1,5 @@
 function boolChecker(bool) {
-  if (typeof bool === true) {
+  if (typeof bool === "boolean") {
     return "You've given me a bool, thanks!";
   }
 
