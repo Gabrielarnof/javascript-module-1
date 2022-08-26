@@ -5,11 +5,18 @@
 - You should use a while loop
 
 */
+let n = 25;
+let counter = 0;
+let result = 0;
 
-let n = 10;
 
-function sumTillNum(num){
+function sumTillNum(num) {
 	//your code here
+	while (counter < num) {
+		result += counter;
+		counter++;
+	}
+	return result;
 }
 
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+console.log(" The sum from  the number 0 to the  number " + n + " is: " + sumTillNum(n)); 
