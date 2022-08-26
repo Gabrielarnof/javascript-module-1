@@ -17,6 +17,16 @@ var number1 = 5;
 var number2 = -1;
 var number3 = 0;
 
+
+function negativeOrPositive(number) {
+  if (number < 0) {
+    return "negative";
+  } else {
+    return "positive"
+  }
+}
+
+
 console.log(number1 + " is " + negativeOrPositive(number1));
 console.log(number2 + " is " + negativeOrPositive(number2));
 console.log(number3 + " is " + negativeOrPositive(number3));
