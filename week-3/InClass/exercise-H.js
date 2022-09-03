@@ -1,5 +1,5 @@
 const names = ["Natalia", "Gabriel", "Alejandro", "Andrea", "Mafer"];
-function foundName(name) {
+function findName(name) {
     if (names.find(names => names === name)) {
         return "Found me!";
     } else {
@@ -7,5 +7,5 @@ function foundName(name) {
     }
 }
 
-console.log(foundName("Gabriel"));
-console.log(foundName("Luiss"));
+console.log(findName("Gabriel"));
+console.log(findName("Luiss"));
