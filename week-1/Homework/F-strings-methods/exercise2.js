@@ -1,6 +1,5 @@
-var name = "Gabriel";
-var nameLength = name.length;
-var nameLowerCase = name.toLowerCase()
+const name = "Gabriel";
+const trimmedName= name.trim()
+const nameLength =trimmedName.length;
 
-var messagetrim = " my name is " + nameLowerCase + " and my name is " + nameLength + " Character long"
-console.log(messagetrim);
+console.log(`My name is ${trimmedName} and my name is ${nameLength} characters long.`);

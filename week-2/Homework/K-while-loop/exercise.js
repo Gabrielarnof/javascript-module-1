@@ -12,7 +12,7 @@ let result = 0;
 
 function sumTillNum(num) {
 	//your code here
-	while (counter < num) {
+	while (counter <= num) {
 		result += counter;
 		counter++;
 	}

@@ -9,20 +9,20 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-function fizz(arr) {
-  if (arr % 3 === 0) {
+
+function printNumbers(arr) {
+  if (arr % 3 === 0 && arr % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (arr % 3 === 0) {
     console.log("Fizz");
   } else if (arr % 5 === 0) {
     console.log("Buzz");
-  } else if (arr % 3 === 0 && arr % 5 === 0) {
-    console.log("FizzBuzz");
   } else {
     console.log(arr);
   }
-
 }
-var array = arr.forEach(fizz);
-console.log(array);
+var array = arr.forEach(printNumbers);
+
 
 
 
