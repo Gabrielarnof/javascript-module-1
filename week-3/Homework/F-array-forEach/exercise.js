@@ -22,7 +22,7 @@ function fizz(arr) {
 
 }
 var array = arr.forEach(fizz);
-
+console.log(array);
 
 
 
